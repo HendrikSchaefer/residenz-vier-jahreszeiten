@@ -1,13 +1,11 @@
 import React from 'react';
 import Layout from '../common/layouts';
-import Img from 'gatsby-image';
-import { graphql, Link } from 'gatsby';
-import Seo from '../common/seo';
+
 
 
 export default ({props, data}) => (
   <Layout>
-    <Seo
+    {/*<Seo
       title={`About ${data.site.siteMetadata.title}`}
       description={data.markdownRemark.frontmatter.title} />
     <div className="relative">
@@ -22,7 +20,8 @@ export default ({props, data}) => (
         <Link to="/blog" className="dib bg-dark-gray b near-white hover-bg-mid-gray pv3 ph4 ttu tracked sans-serif no-underline mv2">Read the blog</Link>
       </div>
       <div className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4" dangerouslySetInnerHTML={{__html: data.markdownRemark.html}} />
-    </div>
+    </div>*/}
+    <span>soon</span>
   </Layout>
 )
 
