@@ -1,20 +1,45 @@
 import React from "react"
 import Layout from '../common/layouts';
 import { graphql } from 'gatsby';
-import Hero from '../homepage/components/hero';
-import Card from '../homepage/components/card';
-import About from '../homepage/components/about';
-import Bio from '../homepage/components/bio';
 import Seo from '../common/seo';
+import Anfrage from '../homepage/components/Anfrage';
+import Philosophie from '../homepage/components/Philosophie';
+import Netzwerk from '../homepage/components/Netzwerk';
+import Impressionen from '../homepage/components/Impressionen';
+
 
 export default ({ data }) => {
+
   let post = data.featuredPost.edges[0].node;
   return (
     <Layout>
       <Seo
-        title={"Home Page"}
+        title={"Verein Vier Jahreszeiten"}
         description={data.site.siteMetadata.description} />
-      <Hero
+      <div className="HeroSection">
+        <div><h1 className="title serif">Residenz Vier Jahreszeiten</h1><h2 className="serif"> - <i><b>Gepflegtes Wohnen mit Weitblick e.V.</b></i> - </h2></div>
+        <div style={{width:'80%', marginLeft:'auto', marginRight:'auto', paddingTop:'20px'}}>
+        <div  className="konzept">
+          <div className="lh-copy lh-copy f4 serif mw8 center">
+          Die traditionsreiche weithin sichtbare, ehemalige „Kukirolfabrik“ und
+          spätere Berufschule „Paul Illhardt“ in <b>Bad Salzelmen</b> erwacht zu neuer Blüte. Tausende Einwohner Schönebecks und der Umgebung begannen hier ihre berufliche Ausbildung,
+          später auch Umschulungen und beruflichen Qualifizierungen. Nun ziehen erstmals Bewohner ein. <br /><br /> Unser Verein <b><i>„Residenz Vier Jahreszeiten – Gepflegtes Wohnen
+          mit Weitblick“</i></b> hat sich die Aufgabe gestellt, den Bewohnern ein hohes Maß an selbstbestimmter, sicherer Wohnlichkeit zu bieten.  <br /><b>Betreutes
+          Wohnen neu definiert!</b> <br/>Gemeinsames Ziel ist Lebensfreude und Mobilisierung – keine Isolation im Alter. Gelebte Gemeinschaft mit vorhandener,
+          gewahrter Privatsphäre. Leben fast wie in einem Hotel – so ist das Leben in unseren neuen vereinseigenen Appartements. Dafür hat der Verein „Vier Jahreszeiten“
+          verlässliche Partner gewonnen. So sind gegebenenfalls ärztliche Betreuung, therapeutische Unterstützung und mögliche ambulante Pflege Grundlage, um die notwendige
+          Sicherheit für ein umsorgtes eigenständiges Leben zu gewährleisten. Ein erfahrenes Netzwerk steht den Bewohnern zur Verfügung.
+          </div>
+
+          </div>
+        </div>
+      </div>
+      <Impressionen />
+      <div id="philosophie" style={{backgroundColor:'#fafafa'}}>
+      <Philosophie />
+      </div>
+      <Netzwerk />
+      {/*<Hero
         title={post.frontmatter.title}
         image={post.frontmatter.postImage.childImageSharp.fluid}
         to={post.frontmatter.slug}
@@ -28,8 +53,11 @@ export default ({ data }) => {
             description={node.frontmatter.description} />
         ))}
       </div>
-      <About />
-      <Bio />
+
+      <Bio />*/}
+      <div class="anfrage">
+      <Anfrage />
+      </div>
     </Layout>
   )
 }
