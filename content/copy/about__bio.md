@@ -2,7 +2,7 @@
 
 type: "copy"
 name: "about__bio"
-title: "Tyra is a fast, feminine, and chic Gatsby.js Starter. Kickstart your online presence, powered by React."
+title: "Hendrik is a fast and chic Gatsby.js Starter. Kickstart your online presence, powered by React."
 
 ---
 
