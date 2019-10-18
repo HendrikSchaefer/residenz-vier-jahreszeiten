@@ -109,12 +109,12 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: "",
+        trackingId: "UA-53854676-9",
         head: false,
         anonymize: true,
         respectDNT: true,
         exclude: ['/success'],
-        cookieDomain: "tyra-starter.netlify.com",
+        cookieDomain: "residenz-vier-jahreszeiten.de",
       }
     }
   ]
