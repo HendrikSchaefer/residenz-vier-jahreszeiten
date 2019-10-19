@@ -23,7 +23,9 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
-      resolve: 'gatsby-plugin-feed',
+      resolve:
+      'gatsby-plugin-feed',
+
       options: {
         query: `
         {
@@ -116,6 +118,12 @@ module.exports = {
         exclude: ['/success'],
         cookieDomain: "residenz-vier-jahreszeiten.de",
       }
+    },
+    {
+    resolve: 'gatsby-plugin-robots-txt',
+    options: {
+      policy: [{ userAgent: '*', allow: '/' }]
     }
+  }
   ]
 }
