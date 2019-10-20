@@ -11,8 +11,11 @@ import Anfrage from '../homepage/components/Anfrage';
 export default ({props, data}) => (
   <Layout>
   <Helmet>
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="index, follow" />
   </Helmet>
+  <Seo
+    title={"Apartments Verein Vier Jahreszeiten"}
+    description={"Unsere Apartments Redidenz Vier Jahreszeiten in Schönebeck sind Ihre Alternative zum klassischen betreuten Wohnen."} />
   <div className="relative">
       <Img fluid={data.banner.childImageSharp.fluid} />
 

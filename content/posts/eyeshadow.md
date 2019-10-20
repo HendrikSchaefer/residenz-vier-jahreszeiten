@@ -1,13 +1,13 @@
 ---
 
 type: "post"
-title: "Three Eye Makeup Looks for Five Minute Mornings"
-author: "Jane Doe"
-category: "makeup"
-date: "2018-01-03"
-slug: "/lazy-morning-looks"
+title: "Verein Vier Jahreszeiten"
+author: "Hendrik Schäfer"
+category: "Wohnen"
+date: "2019-10-03"
+slug: "/eroeffnung"
 postImage: "./img/eyeshadow.jpg"
-metaDescription: "Lazy Day? Here's three essential eye makeup techniques to hang on to."
+metaDescription: "Eröffnung des Hauses."
 
 ---
 
@@ -57,4 +57,4 @@ In vel augue enim. Maecenas in magna ac risus egestas imperdiet. Vivamus consequ
 
 Vestibulum non feugiat diam, sit amet convallis nisl. Etiam a nunc eget velit tincidunt rhoncus. Phasellus ut euismod nisi. Morbi erat arcu, viverra ut feugiat sit amet, mollis id enim. Quisque venenatis ultricies odio eu mattis. Fusce vel placerat lacus, fermentum fringilla neque. Nam enim lectus, consequat id augue eget, laoreet pulvinar dolor.
 
-Vivamus a lacus ante. Morbi sed ex est. Nulla tempor risus eu hendrerit efficitur. Sed porta convallis sapien, eu porttitor augue eleifend eget. Suspendisse lorem turpis, elementum non neque tempus, pellentesque laoreet est. Suspendisse rhoncus justo ac scelerisque placerat. Donec ligula mi, luctus in scelerisque eu, lobortis vitae tellus. Aliquam eget tempus augue, egestas hendrerit est. Vivamus egestas nulla nec mi fermentum porta. Integer commodo nibh tristique nulla vehicula, id ultricies neque dictum. Fusce ut egestas diam. Aliquam at dolor efficitur nulla malesuada consequat ac ut ipsum. 
+Vivamus a lacus ante. Morbi sed ex est. Nulla tempor risus eu hendrerit efficitur. Sed porta convallis sapien, eu porttitor augue eleifend eget. Suspendisse lorem turpis, elementum non neque tempus, pellentesque laoreet est. Suspendisse rhoncus justo ac scelerisque placerat. Donec ligula mi, luctus in scelerisque eu, lobortis vitae tellus. Aliquam eget tempus augue, egestas hendrerit est. Vivamus egestas nulla nec mi fermentum porta. Integer commodo nibh tristique nulla vehicula, id ultricies neque dictum. Fusce ut egestas diam. Aliquam at dolor efficitur nulla malesuada consequat ac ut ipsum.
