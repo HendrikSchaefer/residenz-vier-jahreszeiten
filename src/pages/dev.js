@@ -5,18 +5,14 @@ import Img from 'gatsby-image'
 //import Seo from '../common/seo';
 import Helmet from 'react-helmet';
 
-
-export default ({props, data}) => (
+const SecondPage = () => (
   <Layout>
   <Helmet>
     <meta name="robots" content="noindex, nofollow" />
   </Helmet>
-  <div className="relative">
-      <Img fluid={data.banner.childImageSharp.fluid} />
-
-    </div>
+  
   <div className="bg-washed-red pv5 flex flex-column items-center">
-    <h1 className="db f1 display fw1">Impressum</h1>
+    <h1 className="db f1 display fw1">Development</h1>
   </div>
   <div className="lh-copy f4 serif mw8 center">
   <form name="contact" method="POST" data-netlify="true">
@@ -26,12 +22,7 @@ export default ({props, data}) => (
   <p>
     <label>Your Email: <input type="email" name="email" /></label>
   </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
+
   <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
@@ -43,25 +34,4 @@ export default ({props, data}) => (
   </Layout>
 )
 
-export const dataQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    markdownRemark(frontmatter: {name: {eq: "about__bio"}}) {
-      html
-      frontmatter {
-        title
-      }
-    }
-    banner: file(relativePath: {eq: "img/impressum__banner.jpg"}) {
-      childImageSharp {
-        fluid(maxHeight: 720, maxWidth: 1920) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`
+export default SecondPage
