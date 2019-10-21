@@ -9,7 +9,7 @@ class Anfrage extends React.Component {
 <>
 <div className="lh-copy f4 serif mw8 center" style={{paddingLeft:'20px', paddingRight:'20px'}}>
 <h3 style={{textAlign:'center', paddingTop:'40px'}}>Kontaktieren Sie uns!</h3>
-<form name="contact" method="post" action="/success ">
+<form name="contact" method="post" action="/success/">
 
   <div class="dt-ns dt--fixed-ns">
     <div class="dtc-ns pv4" style={{paddingRight:'2%'}}>
