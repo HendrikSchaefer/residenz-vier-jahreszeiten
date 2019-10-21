@@ -7,16 +7,45 @@ class Anfrage extends React.Component {
     return(
       <React.Fragment>
 <>
-      <div className="pa2 pv5 flex-wrap serif" style={{width:'80%', marginLeft:'auto', marginRight:'auto'}}><h3 className="subh2">Fragen & Kontakt</h3>
-      <div style={{textAlign:'center', fontSize:'24px', lineHeight:'33px'}}>
+<div className="lh-copy f4 serif mw8 center" style={{paddingLeft:'20px', paddingRight:'20px'}}>
+<h3 style={{textAlign:'center', paddingTop:'40px'}}>Kontaktieren Sie uns!</h3>
+<form name="contact" method="post" action="/success ">
 
-        Sollten Sie Fragen zur Wohnanlage haben bzw. sich für eine Wohnung interessieren,<br /> schreiben Sie uns gerne.
+  <div class="dt-ns dt--fixed-ns">
+    <div class="dtc-ns pv4" style={{paddingRight:'2%'}}>
+    <input type="hidden" name="form-name" value="contact" />
+    <p>
+      <label for="name">Ihr Name</label><br/>
+      <input type="text" name="name"/>
+    </p>
+
+    </div>
+    <div class="dtc-ns pv4" style={{paddingRight:'2%'}}>
+    <p>
+      <label for="email">Ihre E-Mail-Adresse</label><br/>
+      <input type="email" name="email"/>
+    </p>
+    </div>
+    <div class="dtc-ns pv4">
+    <p>
+      <label for="phone">Ihre Telefonnummer</label><br/>
+      <input type="number" name="phone"/>
+    </p>
+    </div>
+    </div>
+
+    <p style={{marginTop:'-30px'}}>
+      <label for="message">Ihre Nachricht</label><br />
+      <textarea name="message"></textarea>
+    </p>
+    <p>
+      <button className="button-anfrage" type="submit">Anfrage absenden</button>
+    </p>
+
+
+
+     </form>
 </div>
-<div style={{marginLeft:'auto', marginRight:'auto', display:'grid', width:'220px'}}>
-  <a className="button-anfrage" href="mailto:info@residenz-vier-jahreszeiten.de">Anfrage</a></div>
-
-
-      </div>
 </>
   </React.Fragment>
     )

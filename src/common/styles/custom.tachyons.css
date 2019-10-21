@@ -263,12 +263,11 @@ p.apartmentsAnlage {
 }
 
 .anfrage{
-    background-image: url('../../img/anfrage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: overlay;
-    background-color: rgba(255, 255, 255, 0.98);
+    background-color: #fafafa;
 }
 
 h1.title {
@@ -368,12 +367,15 @@ a.button-anfrage {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 28px;
+    width:100%;
+    margin-bottom:40px;
 }
 input[type="email"], [type="text"], [type="number"] {
     padding: 10px;
     border-radius: 5px;
     border: 0px;
-    margin: 5px 5px 5px 0px;
+    margin: 20px 5px 5px 0px;
+    width:100%;
 }
 
 textarea {
@@ -383,6 +385,11 @@ textarea {
     width: 100%;
     border: 0px;
     margin-Top:20px !important;
+    padding:10px 15px !important;
+}
+.pv4 {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }
 .react-slideshow-container + div.indicators > div {
     width: 20px !important;
