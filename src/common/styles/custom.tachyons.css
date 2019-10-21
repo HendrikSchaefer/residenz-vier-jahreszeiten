@@ -357,6 +357,33 @@ a.button-anfrage {
     letter-spacing: 1px;
     font-size: 28px;
 }
+.button-anfrage {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ab0937;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+input[type="email"], [type="text"], [type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    margin: 5px 5px 5px 0px;
+}
+
+textarea {
+    overflow: auto;
+    columns: 8;
+    height: 200px !important;
+    width: 100%;
+    border: 0px;
+    margin-Top:20px !important;
+}
 .react-slideshow-container + div.indicators > div {
     width: 20px !important;
     height: 20px !important;

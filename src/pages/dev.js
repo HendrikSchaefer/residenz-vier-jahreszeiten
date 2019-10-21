@@ -16,18 +16,41 @@ const SecondPage = () => (
   </div>
   <div className="lh-copy f4 serif mw8 center">
   <form name="contact" method="post">
-         <input type="hidden" name="form-name" value="contact" />
+
+    <div class="dt-ns dt--fixed-ns">
+      <div class="dtc-ns  pv4 bg-black-10">
+      <input type="hidden" name="form-name" value="contact" />
+      <p style={{marginLeft:'20px'}}>
+        <label for="name">Ihr Name</label><br/>
+        <input type="text" name="name"/>
+      </p>
+
+      </div>
+      <div class="dtc-ns  pv4 bg-black-05">
+      <p style={{marginLeft:'20px'}}>
+        <label for="email">Ihre E-Mail-Adresse</label><br/>
+        <input type="email" name="email"/>
+      </p>
+      </div>
+      <div class="dtc-ns  pv4 bg-black-10">
+      <p style={{marginLeft:'20px'}}>
+        <label for="phone">Ihre Telefonnummer</label><br/>
+        <input type="number" name="phone"/>
+      </p>
+      </div>
+
+
+
+
+
+
+      </div>
          <p>
-           <label>Ihr Name: <input type="text" name="name"/></label>
+           <label for="message">Ihre Nachricht</label><br />
+           <textarea name="message"></textarea>
          </p>
          <p>
-           <label>Ihre Email: <input type="email" name="email"/></label>
-         </p>
-         <p>
-           <label>Ihre Nachricht: <textarea name="message"></textarea></label>
-         </p>
-         <p>
-           <button type="submit">Absenden</button>
+           <button className="button-anfrage" type="submit">Absenden</button>
          </p>
        </form>
   </div>
