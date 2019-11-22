@@ -12,7 +12,7 @@ class Philosophie extends React.Component {
       <div className="pa2 pv5 flex-wrap serif partner">
         <div style={{display:'inline-flex'}} className="konzept">
             <div className="lh-copy lh-copy f4 serif mw8 center" style={{textAlign:'center'}}>
-                  <img src={imgage1} className="img-ambulant" /><h3 style={{fontSize:'24px'}}>Ambulanter Pflegedienst "Vier Jahreszeiten"</h3>Als Verein konnten wir, den bereits im Objekt befindlichen,<br />
+                  <img src={imgage1} className="img-ambulant" /><h3 style={{fontSize:'24px'}}>Ambulanter Pflegedienst "Vier Jahreszeiten"</h3>Wir konnten den bereits im Objekt befindlichen<br />
                   <a style={{textDecoration:'none', color:'#ab0937'}} target="_blank" href="https://www.ambulanter-pflegedienst-vier-jahreszeiten.de/">ambulanten Pflegedienst „Vier Jahreszeiten“ GmbH</a> für die ambulante Versorgung unserer
                   Bewohner gewinnen.<br/><br/> Der Pflegedienst „Vier Jahreszeiten“ betreut derzeit über 100 Mandanten und hat liebevolle und
                   sehr engagierte Mitarbeiter die auch unseren Bewohnern ein Lächeln bringen werden!

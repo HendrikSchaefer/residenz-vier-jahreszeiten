@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     navbarLinks: [
-      {to: "/appartments", name: " Vereins-Apartments und Anlage"},
+      {to: "/appartments", name: " Apartments und Anlage"},
       {to: "/#philosophie", name: "Philosophie"},
     ],
     title: "Residenz Vier Jahreszeiten Schönebeck",

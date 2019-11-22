@@ -103,13 +103,13 @@ export default class Navbar extends React.Component {
             <div className="dn w-100 mw6 flex-l justify-around items-center">
 
               <span className="sans-serif mid-gray dn dib-l"></span>
-              <Link to="/soon" className="sans-serif ttu mid-gray f6 no-underline light-green accent dn dib-l">Kostenrechner</Link>
+              <Link to="/#anfrage" className="sans-serif ttu mid-gray f6 no-underline light-green accent dn dib-l">Anfrage</Link>
             </div>
           </div>
           <SliderMenu
             active={this.state.menuToggle}
             extraLinks={data.site.siteMetadata.navbarLinks}
-            siteTitle={data.site.siteMetadata.siteTitle}/>
+            />
         </React.Fragment>
 
       )} />

@@ -11,7 +11,7 @@ class Philosophie extends React.Component {
         <div className="lh-copy lh-copy f4 serif mw8 center" style={{textAlign:'center'}}>
         <i><b>„Wer will schon in ein Pflegeheim!“</b></i>
 – das haben wir oft gehört! Wir bieten eine <b>Alternative</b>! Wenn Wohnen zu Hause nicht
-mehr möglich ist, wohnen Sie selbstbestimmt in den Vereinsobjekten der Residenz „Vier Jahreszeiten“.
+mehr möglich ist, wohnen Sie selbstbestimmt in den Apartments der Residenz „Vier Jahreszeiten“.
 Wir bieten Ihnen oder Ihren Angehörigen eine echte <b>Alternative</b>.<br / ><br / >
 <i><b>"Wir wollen Mobilität im Alter fördern!"</b></i><br /><br/>
 Für die <b>therapeutische Mobilisierung</b> arbeiten wir sehr eng mit dem <a style={{textDecoration:'none', color:'#ab0937'}} target="_blank" href="https://www.agrsbk.de">Ambulanten Geriatrischen Rehakomplex</a> aus Schönebeck zusammen. Dieser wird im zweiten

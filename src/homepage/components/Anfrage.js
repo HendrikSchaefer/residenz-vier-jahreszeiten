@@ -7,7 +7,7 @@ class Anfrage extends React.Component {
     return(
       <React.Fragment>
 <>
-<div className="lh-copy f4 serif mw8 center" style={{paddingLeft:'20px', paddingRight:'20px'}}>
+<div id="anfrage" className="lh-copy f4 serif mw8 center" style={{paddingLeft:'20px', paddingRight:'20px'}}>
 <h3 style={{textAlign:'center', paddingTop:'40px'}}>Kontaktieren Sie uns!</h3>
 <form name="contact" method="post" action="/success/">
 

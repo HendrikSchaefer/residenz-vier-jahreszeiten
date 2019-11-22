@@ -14,18 +14,18 @@ export default ({props, data}) => (
     <meta name="robots" content="index, follow" />
   </Helmet>
   <Seo
-    title={"Apartments Verein Vier Jahreszeiten"}
+    title={"Apartments Residenz Vier Jahreszeiten"}
     description={"Unsere Apartments Redidenz Vier Jahreszeiten in Schönebeck sind Ihre Alternative zum klassischen betreuten Wohnen."} />
   <div className="relative">
       <Img fluid={data.banner.childImageSharp.fluid} />
 
     </div>
   <div className="bg-washed-red pv4 pa4 flex flex-column items-center">
-    <h1 className="subh2 serif">Unsere Vereins-Apartments und die Anlage</h1>
+    <h1 className="subh2 serif">Unsere Apartments und die Anlage</h1>
   </div>
   <div className="lh-copy f4 serif mw8 center pv5">
   <p className="apartmentsAnlage" style={{textAlign:'left'}}>Im ersten Bauabschnitt der aufwendigen Denkmalsanierung
-entstehen in der ehemaligen Direktorenvilla, 13 Vereinsappartements für maximal
+entstehen in der ehemaligen Direktorenvilla, 13 Appartements für maximal
 18 Bewohner. Alle Appartements sind über den Fahrstuhl erreichbar. Die Appartements sind alle sehr
 individuell geschnitten und unterschiedlich groß. Sie haben jeweils eine eigene kleine Kochzeile und altengerechte
 Duschbäder.  <br /> <br />
@@ -36,13 +36,13 @@ Verschiedene Sitzgruppen, Grillplätze, Hochbeete, Wasserspiele – all das kann
 Tagesausflüge zu Veranstaltungen oder zu Wochenmärkten sind ebenso an der Tagesordnung
 wie die Organisation Ihrer privaten Feier.
 <br /> <br /> Auf Grundlage einer fachlich fundierten Pflegeberatung vereinbaren wir auf Wunsch
-mit dem Bewohner der Vereinswohnanlage gerne auch eine ambulante Pflege und individuelle
+mit dem Bewohner der Apartments gerne auch eine ambulante Pflege und individuelle
 hauswirtschaftliche Unterstützung. Alle Appartements sind für eine telemedizinische Betreuung vorgerüstet.
 </p><br />
 <div style={{backgroundColor:'#fafafa', padding:'40px', borderRadius:'20px'}}>
 <h3 style={{textAlign:'center'}}>Alles Wichtige zu unseren ersten Apartments</h3>
 <div className="apartmentsFacts">
-<FaCheck style={{fontSize:'17px', marginRight:'10px'}}/> 13 Vereinsappartements<br/>
+<FaCheck style={{fontSize:'17px', marginRight:'10px'}}/> 13 Apartments<br/>
 <FaCheck style={{fontSize:'17px', marginRight:'10px'}}/> Für maximal 18 Bewohner<br/>
 <FaCheck style={{fontSize:'17px', marginRight:'10px'}}/> Individuell geschnitten<br/>
 <FaCheck style={{fontSize:'17px', marginRight:'10px'}}/> Fahrstuhl<br/>
