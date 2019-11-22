@@ -22,7 +22,7 @@ export default ({props, data}) => (
   <p>Impressum<br />
 Angaben gemäß § 5 TMG<br /><br />
 
-Residenz Vier Jahreszeiten - Gepflegtes wohnen mit Weitblick e.V.<br />
+Residenz Vier Jahreszeiten - Gepflegtes wohnen mit Weitblick<br />
 Paul-Illhardt-Str. 6<br />
 39218 Schönebeck<br /><br />
 
