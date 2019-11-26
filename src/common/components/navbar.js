@@ -3,6 +3,7 @@ import { StaticQuery, graphql, Link } from 'gatsby';
 import { FiMenu } from 'react-icons/fi';
 import '../styles/custom.tachyons.css';
 import logo from './../../img/logo.png';
+import Ankundigung from './Ankundigung';
 
 
 const MultiLink = (props) => {
@@ -25,19 +26,20 @@ const SliderMenu = (props) => {
     extraClasses = (props.active ? " fadeIn" : " fadeOut");
   }
   return (
+    <>
     <div
       className={
         "flex flex-column justify-top items-center bg-washed-red fixed top z-max w-100 ease" + (props.active ? " vh-93" : " h0")
       }>
       <Link
         to="/"
-        className={"display ttu tracked dark-gray f3 no-underline menu__item pv5" + extraClasses}
+        className={"display ttu tracked dark-gray f6 no-underline menu__item pv5" + extraClasses}
       >{props.siteTitle}
       </Link>
       {props.extraLinks.map(navLink => (
         <MultiLink
           to={navLink.to}
-          className={"sans-serif ttu mid-gray f5 no-underline menu__item pv3" + extraClasses}
+          className={"sans-serif  light-gray f4 no-underline menu__item pv3" + extraClasses}
         >{navLink.name}
         </MultiLink>
       ))}
@@ -46,6 +48,7 @@ const SliderMenu = (props) => {
         className={"sans-serif ttu mid-gray f5 no-underline menu__item pv3" + extraClasses}
       >About</Link>*/}
     </div>
+    </>
   )
 }
 
@@ -87,25 +90,26 @@ export default class Navbar extends React.Component {
         <React.Fragment>
           <div
             className="bg-white flex w-100 vh-11 pv3 flex justify-between items-center top-0 z-999  b--light-gray"
-            style={{position: "sticky"}}>
-            < div className="w-100 mw9 flex justify-between justify-around-l items-center ph4 pa2-ns">
+            style={{position: "sticky", opacity:"0.98", borderBottom: "1px dashed #ccc"}}>
+            <div className="w-100 mw12 flex justify-between justify-around-l items-center ph4 pa2-ns">
               <button
                 className="ttu tracked dark-gray f4 no-underline bn bg-transparent pointer"
                 onClick={this.toggleMenu}>
-                <FiMenu />
+                <div className="flex"><div><FiMenu  /></div><div><span className="menuTextButton">Menü</span></div></div>
               </button>
               <Link to="/" className="display ttu tracked dark-gray f3 no-underline"><img src={logo} alt="Logo" className="logo" /></Link>
               {/*<Link to="/" className="sans-serif ttu mid-gray menuItems no-underline dn dib-l">Startseite</Link>*/}
-              {data.site.siteMetadata.navbarLinks.map(navLink => (
+              {/*data.site.siteMetadata.navbarLinks.map(navLink => (
                 <MultiLink to={navLink.to} className="sans-serif ttu mid-gray menuItems no-underline dn dib-l">{navLink.name}</MultiLink>
-              ))}
+              ))*/}
             </div>
             <div className="dn w-100 mw6 flex-l justify-around items-center">
 
               <span className="sans-serif mid-gray dn dib-l"></span>
               <Link to="/#anfrage" className="sans-serif ttu mid-gray f6 no-underline light-green accent dn dib-l">Anfrage</Link>
             </div>
-          </div>
+
+          </div><Ankundigung/>
           <SliderMenu
             active={this.state.menuToggle}
             extraLinks={data.site.siteMetadata.navbarLinks}

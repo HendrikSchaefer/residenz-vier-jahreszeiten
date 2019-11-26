@@ -23,6 +23,7 @@ const properties = {
   infinite: true,
   indicators: true,
   arrows: false,
+  autoplay:false,
 
 }
 
@@ -33,7 +34,7 @@ const Slideshow = () => {
 
             <div>
             <img style={{'backgroundImage': `url(${imgage1})`, width:'100vw', height:'100vh', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center center'}}  />
-
+            <div className="SlideCaption">Slide 1</div>
             </div>
 
           <div>

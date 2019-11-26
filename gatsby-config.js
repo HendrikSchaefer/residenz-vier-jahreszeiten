@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     navbarLinks: [
+      {to: "/", name: "Home"},
       {to: "/appartments", name: " Apartments und Anlage"},
       {to: "/#philosophie", name: "Philosophie"},
     ],
@@ -104,7 +105,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Karla', 'Playfair Display', 'Lora']
+          families: ['Karla', 'Playfair Display', 'Lora', 'SilkType']
         }
       }
     },

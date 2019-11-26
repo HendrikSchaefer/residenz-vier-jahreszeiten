@@ -29,7 +29,7 @@
 }
 
 .mw6 {
-    max-width: 17rem !important;
+    max-width: 30% !important;
     padding-right: 40px;
 }
 
@@ -43,29 +43,28 @@
 
 .menu__item { visibility: none; }
 
-
+hr {
+  border-top:dashed 1px #4d4d4d !important;
+}
 
 @media screen and (min-width: 600px) {
   .pv3 {
-      padding-top: 0px !important;
+      padding-top: 10px !important;
       padding-bottom: 0px !important;
   }
 
-  .bn {
-      border-style: none;
-      border-width: 0;
-      display: none;
-  }
+
 
   h1.title {
       text-align: center;
       padding-top: 15%;
       font-size: 70px !important;
-      color: #353535;
+      color: #323D4B;
       letter-spacing: -1px;
       margin:0px;
       /*text-shadow: 2px 2px 9px #4d4d4d90;*/
       -webkit-animation: startAnimation 2s;
+      font-weight: 100;
   }
 
   h2 {
@@ -73,18 +72,32 @@
       font-size: 18px;
       letter-spacing: 1px;
       padding: 0px 20px 0px 20px;
-      color: #353535;
+      color: #323D4B;
       /*text-shadow: 2px 2px 9px #4d4d4d90;*/
       -webkit-animation: startAnimation 2s;
   }
 
   .konzept {
-      font-size: 22px !important;
-      color: #353535;
+      font-size: 18px !important;
+      color: #323D4B;
       line-height: 33px !important;
       column-count: 2;
       text-align: left;
       column-gap: 40px;
+      font-family: 'SilkType',serif !important;
+      letter-spacing: 1px;
+      padding-top:20px;
+  }
+  .konzept2 {
+      font-size: 18px !important;
+      color: #323D4B;
+      line-height: 33px !important;
+      column-count: 1;
+      text-align: center;
+      column-gap: 40px;
+      font-family: 'SilkType',serif !important;
+      letter-spacing: 1px;
+      padding-top:30px;
   }
 .partner {
     width: 80% !important;
@@ -127,7 +140,7 @@ img.img-agr2 {
 .subh2 {
     font-size: 40px !important;
     text-align: center !important;
-    color:#353535;
+    color:#323D4B;
 }
 
 p.apartmentsAnlage {
@@ -230,7 +243,7 @@ p.apartmentsAnlage {
 }
 
 .bg-washed-red {
-    background-color: #ededeb !important;
+    background-color: #aeb49b !important;
 }
 
 .bg-white {
@@ -238,15 +251,16 @@ p.apartmentsAnlage {
 }
 
 .logo {
-    max-width: 200px;
+    max-width: 250px;
 }
 
 .light-green {
     color: #fafafa !important;
-    background-color: #696d60;
+    background-color: #aeb49b;
     padding: 10px 20px;
     border-radius: 5px;
     font-weight:900 !important;
+    border:double;
 }
 .light-green:hover {
     color: #fafafa !important;
@@ -260,16 +274,17 @@ p.apartmentsAnlage {
 
 
 .HeroSection {
-    background-image: url('../../img/Residenz-Vier-Jahreszeiten-Villa.jpg');
+    background-image: url('../../img/umgebung3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
     background-blend-mode: overlay;
-    background-color: rgba(255, 255, 255, 0.94);
+    background-color: rgba(255, 255, 255, 0.3) !important;
     min-height: 80vh;
-    padding-bottom: 90px;
+    padding-bottom: 100px;
     padding-left:20px;
     padding-right:20px;
+    padding-top: 10%;
 
 
 }
@@ -279,18 +294,23 @@ p.apartmentsAnlage {
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: overlay;
-    background-color: #fafafa;
+    background-color: #eee;
+    margin-top:-25px;
+    padding-bottom: 40px;
+    padding-top: 100px;
 }
 
 h1.title {
     text-align: center;
     padding-top: 5%;
     font-size: 26px;
-    color: #353535;
+    color: #323D4B;
     letter-spacing: 0px;
     margin:0px;
     /*text-shadow: 2px 2px 9px #4d4d4d90;*/
     -webkit-animation: startAnimation 2s;
+    font-family: 'SilkType',serif !important;
+    letter-spacing: 3px;
 }
 
 h2 {
@@ -298,7 +318,7 @@ h2 {
     font-size: 17px;
     letter-spacing: 1px;
     padding: 0px 20px 0px 20px;
-    color: #353535;
+    color: #323D4B;
     /*text-shadow: 2px 2px 9px #4d4d4d90;*/
     -webkit-animation: startAnimation 2s;
 }
@@ -306,22 +326,22 @@ h2 {
 .subh2 {
     font-size: 24px;
     text-align: center !important;
-    color:#353535;
+    color:#323D4B;
 }
 @keyframes pulse {
 
-  0% {background-color:#ab0937;}
-  100% {background-color: #610922;}
+  0% {background-color:#bcd1ae;}
+  100% {background-color: #bcd1ae95;}
 
 
 }
 .accent {
-    background-color: #ab0937;
-    -webkit-animation: pulse 5s infinite;
+    background-color: #aeb49b;
+    /*-webkit-animation: pulse 5s infinite;*/
     font-size:18px !important;
 }
 .accent:hover {
-    background-color: #18a7d2;
+    background-color: #aeb49b;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
     -webkit-animation: pulse 5s infinite;
 
@@ -340,11 +360,12 @@ h2 {
 
 .konzept {
     font-size: 18px;
-    color: #353535;
+    color: #323D4B;
     line-height: 28px;
     text-align: center;
 
 }
+
 
 b {
   color:#black;
@@ -359,7 +380,7 @@ b {
 a.button-anfrage {
     text-align: center;
     margin-top: 20px;
-    background-color: #ab0937;
+    background-color: #696d60;
     padding: 10px 20px;
     border-radius: 3px;
     color: #fff;
@@ -371,7 +392,7 @@ a.button-anfrage {
 .button-anfrage {
     text-align: center;
     margin-top: 20px;
-    background-color: #ab0937;
+    background-color: #696d60;
     padding: 10px 20px;
     border-radius: 3px;
     color: #fff;
@@ -467,4 +488,24 @@ img.img-agr2 {
 .pv3 {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+span.menuTextButton {
+    padding-left: 10px !important;
+    /* padding-bottom: 11px; */
+}
+
+*:focus {
+    outline: none;
+   }
+
+   .dark-gray {
+    color: #323D4B;
+}
+.box-internal-info{
+    width: 48%;
+    margin-right: 20px;
+    height: 400px;
+    margin-top: -20px;
+    padding:50px;
+    border-radius: 30px;
 }
