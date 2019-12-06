@@ -87,6 +87,7 @@ export default class Navbar extends React.Component {
         }
       `}
       render={data => (
+        <><Ankundigung />
         <React.Fragment>
           <div
             className="bg-white flex w-100 vh-11 pv3 flex justify-between items-center top-0 z-999  b--light-gray"
@@ -103,19 +104,20 @@ export default class Navbar extends React.Component {
                 <MultiLink to={navLink.to} className="sans-serif ttu mid-gray menuItems no-underline dn dib-l">{navLink.name}</MultiLink>
               ))*/}
             </div>
-            <div className="dn w-100 mw6 flex-l justify-around items-center">
+            <div className="dn w-100 mw6 flex-l justify-around items-center top-0 z-999" >
 
               <span className="sans-serif mid-gray dn dib-l"></span>
-              <Link to="/#anfrage" className="sans-serif ttu mid-gray f6 no-underline light-green accent dn dib-l">Anfrage</Link>
+              <Link to="/#anfrage" style={{letterSpacing:'1px'}} className="serif ttu mid-gray f6 no-underline light-green accent dn dib-l">Kostenlos informieren</Link>
             </div>
 
-          </div><Ankundigung/>
+          </div>
+
           <SliderMenu
             active={this.state.menuToggle}
             extraLinks={data.site.siteMetadata.navbarLinks}
             />
         </React.Fragment>
-
+</>
       )} />
     )
   }

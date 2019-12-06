@@ -5,6 +5,7 @@ import {
   FaEnvelope
 } from 'react-icons/fa';
 import 'tachyons';
+import Ankundigung from './Ankundigung';
 import { CookieBanner } from '@palmabit/react-cookie-law';
 
 function currentYear() {
@@ -32,6 +33,7 @@ export default () => (
       }
     `}
     render={data => (
+      <><Ankundigung />
       <footer className="pa2 bg-white near-white pv5">
         <div className="flex flex-wrap justify-around w-100 mw9 center mb5">
 
@@ -50,7 +52,7 @@ export default () => (
           </div>
 
 
-        <div style={{textAlign:'center'}} className="w-100 mw9 silver mid-gray center serif f6">
+        <div style={{textAlign:'center', backgroundColor:'#323D4B'}} className="w-100 mw9 silver center serif f6">
           <p>© {currentYear()} - Residenz Vier Jahreszeiten - Gepflegtes Wohnen mit Weitblick • <Link to="/impressum" className=" silver b ttu tracked sans-serif no-underline mv2">Impressum</Link></p>
         </div>
         <CookieBanner
@@ -65,6 +67,6 @@ export default () => (
       statisticsOptionText="Statistiken"
       marketingOptionText="Marketing"
     />
-      </footer>
+      </footer></>
     )} />
 )

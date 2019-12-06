@@ -29,30 +29,30 @@ const Slideshow = () => {
 <>
         <Fade {...fadeProperties}>
 
-            <div style={{'backgroundImage': `url(${imgage5})`, width:'100vw', height:'1000px', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center center'}} >
+            <div style={{'backgroundImage': `url(${imgage5})`, width:'100vw', height:'50vh', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center center'}} >
             </div>
 
-            <div style={{'backgroundImage': `url(${imgage4})`, width:'100vw', height:'1000px', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center center'}} >
+            <div style={{'backgroundImage': `url(${imgage4})`, width:'100vw', height:'50vh', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center center'}} >
             </div>
 
-            <div style={{'backgroundImage': `url(${imgage3})`, width:'100vw', height:'1000px', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center center'}} >
+            <div style={{'backgroundImage': `url(${imgage3})`, width:'100vw', height:'50vh', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center center'}} >
             </div>
 
-            <div style={{'backgroundImage': `url(${imgage2})`, width:'100vw', height:'1000px', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center center'}} >
+            <div style={{'backgroundImage': `url(${imgage2})`, width:'100vw', height:'50vh', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center center'}} >
             </div>
-            <div style={{'backgroundImage': `url(${imgage1})`, width:'100vw', height:'1000px', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center center'}} >
+            <div style={{'backgroundImage': `url(${imgage1})`, width:'100vw', height:'50vh', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center center'}} >
             </div>
 
 
 
         </Fade>
-        <HeroContent />
+
 
         </>
     )
 }
 
-class Impressionen extends React.Component {
+class ImpressionenMobile extends React.Component {
   render () {
     return(
       <React.Fragment>
@@ -62,9 +62,9 @@ class Impressionen extends React.Component {
   <h3 style={{textAlign:'center', fontSize:'30px'}}>Impressionen vom Gelände und der Umgebung</h3>
 </div>*/}
 
-<div className="sliderDesktop">
+
 <Slideshow/>
-</div>
+
 
 
 
@@ -84,4 +84,4 @@ class Impressionen extends React.Component {
 
 
 
-export default Impressionen
+export default ImpressionenMobile

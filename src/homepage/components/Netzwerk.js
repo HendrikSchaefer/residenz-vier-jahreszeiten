@@ -1,41 +1,76 @@
 import React from "react"
 import imgage1 from '../../img/anfrage.jpg';
-import imgage2 from '../../img/agr.jpg';
+import agr from '../../img/agr.jpg';
 import imgage3 from '../../img/agr2.jpg';
+import pflege from '../../img/ambulanter-pflegedienst-vier-jahreszeiten-residenz-vier-jahreszeiten.jpg'
+import hat from '../../img/hat-residenz.jpg'
+import imperial from '../../img/imperial.png';
+import imperialdark from '../../img/imperial-dark.png'
+import { Link } from 'gatsby';;
 
 
 class Philosophie extends React.Component {
   render () {
     return(
       <React.Fragment>
-<><h2 className="serif subh2">Unsere starken Partner</h2>
-      <div className="pa2 pv5 flex-wrap serif partner">
-        <div style={{display:'inline-flex'}} className="konzept">
-            <div className="lh-copy lh-copy f4 serif mw8 center" style={{textAlign:'center'}}>
-                  <img src={imgage1} className="img-ambulant" /><h3 style={{fontSize:'24px'}}>Ambulanter Pflegedienst "Vier Jahreszeiten"</h3>Wir konnten den bereits im Objekt befindlichen<br />
-                  <a style={{textDecoration:'none', color:'#ab0937'}} target="_blank" href="https://www.ambulanter-pflegedienst-vier-jahreszeiten.de/">ambulanten Pflegedienst „Vier Jahreszeiten“ GmbH</a> für die ambulante Versorgung unserer
-                  Bewohner gewinnen.<br/><br/> Der Pflegedienst „Vier Jahreszeiten“ betreut derzeit über 100 Mandanten und hat liebevolle und
-                  sehr engagierte Mitarbeiter die auch unseren Bewohnern ein Lächeln bringen werden!
-            </div>
+      <>
+
+      <div className="serviceStripe">
+<h2 style={{fontSize:'32px'}}><img style={{marginLeft:'-15px'}} src={imperialdark} alt="border" /><br/>Selbstbestimmt & aktiv leben</h2>
+<p style={{textAlign:'center', fontSize:'22px'}} className="mobileText">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut <br /> labore et dolore magna aliquyam</p>
+      <div className="notMobile">
+        <div style={{marginLeft:'auto', marginRight:'auto'}} className="flex w-80 vh-11 pv3  justify-between items-center">
+        <div className="boxServiceOuter">
+          <div className="boxService">
+          <img src={agr}  style={{borderRadius:'5px'}} alt="Residez Vier Jahreszeiten"/>
+        <h3 style={{fontSize:'20px', fontWeight:'300'}}>Individuelles Gesundheits- und Bewegungsangebot</h3>
+        <Link to="/" style={{letterSpacing:'1px', fontSize:'15px !important'}} className="serif ttu mid-gray f6 no-underline light-green accent dn dib-l">Mobilisierung</Link>
+          </div>
+          </div>
+          <div className="boxServiceOuter active">
+          <div className="boxService"><img src={pflege} style={{borderRadius:'5px'}} alt="Residez Vier Jahreszeiten" />
+          <h3 style={{fontSize:'20px', fontWeight:'300'}}>Ihr umfassendes Pflegeangebot</h3>
+        <Link to="/" style={{letterSpacing:'1px', fontSize:'15px !important'}} className="serif ttu mid-gray f6 no-underline light-green accent dn dib-l">Pflege</Link>
+          </div>
+          </div>
+          <div className="boxServiceOuter">
+          <div className="boxService">
+          <img src={hat} style={{borderRadius:'5px'}} alt="Residez Vier Jahreszeiten" />
+          <h3 style={{fontSize:'20px', fontWeight:'300'}}>Ihre hausärztliche Versorgung</h3>
+          <Link to="/" style={{letterSpacing:'1px', fontSize:'15px !important'}} className="serif ttu mid-gray f6 no-underline light-green accent dn dib-l">Hausarzt</Link>
+          </div>
+          </div>
         </div>
       </div>
-      <div className="pa2 pv5 flex-wrap serif partner" style={{marginBottom:'50px'}}>
-        <div style={{display:'inline-flex'}} className="konzept">
-            <div className="lh-copy lh-copy f4 serif mw8 center partner-agr" style={{textAlign:'center'}}>
-                  <h3 style={{fontSize:'24px'}}>Ambulanter Geriatrischer Senioren-Rehakomplex</h3>
-                      Das auf Altersmedizin spezialisierte Team, bestehend aus geriatrisch geschulten Ärzten,
-                      Ergotherapie, Logopädie, Physiotherapie und Pflegekräften, erstellt für jeden Patienten einen individuellen und abgestimmten
-                      Therapieplan. Entscheidend sind dabei die Behandlungsziele und der Zustand
-                      des Patienten. Durch die Bündelung des multiprofessionellen Teams unter einem Dach
-                      ist es möglich, dass der Patient täglich zwei bis drei Therapieeinheiten pro Tag erhält, die es
-                      benötigt, um zeitnah wieder fit zu sein und allein zuhause zurecht zu kommen. Auch Patienten
-                      mit schwersten Bewegungseinschränkungen können ein aktives Ganzkörpertraining im
-                      AGR absolvieren. Ärzte und Therapeuten sorgen dafür, dass jeder Patient Erfolge zu verzeichnen
-                      hat.
-                  <img src={imgage2} className="img-agr" /><img src={imgage3} className="img-agr2" />
-            </div>
+
+      <div className="mobile">
+        <div style={{marginLeft:'auto', marginRight:'auto'}} className=" w-100 vh-11 pv3  items-center">
+        <div className="boxServiceOuter">
+          <div className="boxService">
+          <img src={agr}  style={{borderRadius:'5px'}} alt="Residez Vier Jahreszeiten"/>
+        <h3 style={{fontSize:'20px', fontWeight:'300'}}>Individuelles Gesundheits- und Bewegungsangebot</h3>
+        <Link to="/" style={{letterSpacing:'1px', fontSize:'15px !important'}} className="serif ttu mid-gray f6 no-underline light-green accent  dib-l">Mobilisierung</Link>
+          </div>
+          </div>
+          <div className="boxServiceOuter active">
+          <div className="boxService"><img src={pflege} style={{borderRadius:'5px'}} alt="Residez Vier Jahreszeiten" />
+          <h3 style={{fontSize:'20px', fontWeight:'300'}}>Ihr umfassendes Pflegeangebot</h3>
+        <Link to="/" style={{letterSpacing:'1px', fontSize:'15px !important'}} className="serif ttu mid-gray f6 no-underline light-green accent  dib-l">Pflege</Link>
+          </div>
+          </div>
+          <div className="boxServiceOuter">
+          <div className="boxService">
+          <img src={hat} style={{borderRadius:'5px'}} alt="Residez Vier Jahreszeiten" />
+          <h3 style={{fontSize:'20px', fontWeight:'300'}}>Ihre hausärztliche Versorgung</h3>
+          <Link to="/" style={{letterSpacing:'1px', fontSize:'15px !important'}} className="serif ttu mid-gray f6 no-underline light-green accent  dib-l">Hausarzt</Link>
+          </div>
+          </div>
         </div>
       </div>
+
+</div>
+
+
 
 </>
   </React.Fragment>
