@@ -52,7 +52,7 @@ export default () => (
           </div>
 
 
-        <div style={{textAlign:'center', backgroundColor:'#323D4B'}} className="w-100 mw9 silver center serif f6">
+        <div style={{textAlign:'center'}} className="w-100 mw9 silver center serif f6">
           <p>© {currentYear()} - Residenz Vier Jahreszeiten - Gepflegtes Wohnen mit Weitblick • <Link to="/impressum" className=" silver b ttu tracked sans-serif no-underline mv2">Impressum</Link></p>
         </div>
         <CookieBanner
@@ -66,6 +66,7 @@ export default () => (
       preferencesOptionText="Einstellungen"
       statisticsOptionText="Statistiken"
       marketingOptionText="Marketing"
+      location="bottom"
     />
       </footer></>
     )} />
