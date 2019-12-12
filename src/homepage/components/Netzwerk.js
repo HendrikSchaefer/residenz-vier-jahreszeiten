@@ -17,7 +17,7 @@ class Philosophie extends React.Component {
 
       <div className="serviceStripe">
 <h2 style={{fontSize:'32px'}}><img style={{marginLeft:'-15px'}} src={imperialdark} alt="border" /><br/>Selbstbestimmt & aktiv leben</h2>
-<p style={{textAlign:'center', fontSize:'22px'}} className="mobileText">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut <br /> labore et dolore magna aliquyam</p>
+{/*<p style={{textAlign:'center', fontSize:'22px'}} className="mobileText">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut <br /> labore et dolore magna aliquyam</p>*/}
       <div className="notMobile">
         <div style={{marginLeft:'auto', marginRight:'auto'}} className="flex w-80 vh-11 pv3  justify-between items-center">
         <div className="boxServiceOuter">
