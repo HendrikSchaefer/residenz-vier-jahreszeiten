@@ -3,7 +3,7 @@ module.exports = {
     navbarLinks: [
       {to: "/", name: "Home"},
       {to: "/appartments", name: " Apartments und Anlage"},
-      {to: "/#philosophie", name: "Philosophie"},
+      {/*to: "/#philosophie", name: "Philosophie"*/},
     ],
     title: "Residenz Vier Jahreszeiten Schönebeck",
     description: "Betreutes Wohnen in Schönebeck neu gedacht. Wir fördern Mobilität und Aktivität. Erfahren Sie mehr über unsere Apartments und Wohnanlage",

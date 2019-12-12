@@ -27,10 +27,10 @@ class HeroContent extends React.Component {
   </div>
   </div>
   </div>
-  <div style={{borderRadius:'20px 20px 0px 0px', backgroundColor:'#4d4d4d', marginTop:'-100px', fontSize:'30px', padding:'50px 50px 30px 50px', color:'white', width:'85%', marginLeft:'auto',
+  <div style={{borderRadius:'20px 20px 0px 0px', backgroundColor:'#95AA9D', marginTop:'-100px', fontSize:'30px', padding:'50px 50px 30px 50px', color:'white', width:'85%', marginLeft:'auto',
   marginRight:'auto', textAlign:'center', fontWeight:'500', borderTop:'dashed 1px', letterSpacing:'2px'}}><img style={{marginLeft:'-15px'}} src={imperial} alt="border" /><br/>Stilvoll & komfortable Nutzungskonzepte<br />inklusive individueller Räume</div>
 
-  <div style={{borderBottom:'dashed 1px', borderRadius:'0px 0px 20px 20px', marginBottom:'50px', backgroundColor:'rgba(77, 77, 77, 1)', width:'85%', marginLeft:'auto', marginRight:'auto', padding:'00px 0px 60px 0px', marginRight:'auto', marginLeft:'auto'}} class="w-100  flex justify-around items-center">
+  <div style={{borderBottom:'dashed 1px', borderRadius:'0px 0px 20px 20px', marginBottom:'50px', backgroundColor:'#95AA9D', width:'85%', marginLeft:'auto', marginRight:'auto', padding:'00px 0px 60px 0px', marginRight:'auto', marginLeft:'auto'}} class="w-100  flex justify-around items-center">
 
   <Link to="/#anfrage" style={{letterSpacing:'2px'}} className="mid-gray f6 no-underline light-green accent  dib-l"><FaServicestack /> Unsere Leistungen & Vorteile</Link>
   </div>

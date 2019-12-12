@@ -42,9 +42,9 @@ export default ({ data }) => {
 </div>
 <Netzwerk />
 
-
+{/*
 <LeistungenAllgemein />
-
+*/}
 
 <div class="anfrage">
 <Anfrage />
