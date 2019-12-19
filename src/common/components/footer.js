@@ -33,7 +33,7 @@ export default () => (
       }
     `}
     render={data => (
-      <><Ankundigung />
+      <>{/*<Ankundigung />*/}
       <footer className="pa2 bg-white near-white pv5">
         <div className="flex flex-wrap justify-around w-100 mw9 center mb5">
 

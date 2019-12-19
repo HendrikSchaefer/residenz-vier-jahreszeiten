@@ -87,7 +87,7 @@ export default class Navbar extends React.Component {
         }
       `}
       render={data => (
-        <><Ankundigung />
+        <>{/*<Ankundigung />*/}
         <React.Fragment>
           <div
             className="bg-white flex w-100 vh-11 pv3 flex justify-between items-center top-0 z-999  b--light-gray"
