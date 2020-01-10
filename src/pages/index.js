@@ -22,7 +22,7 @@ export default ({ data }) => {
 <Impressionen/>
 
 <div className="HeroContentMobile">
-<div style={{width:'100%', marginLeft:'auto', marginRight:'auto', backgroundColor:'rgb(255, 255, 255, 0.95)', padding:'30px 30px 60px 30px', }}>
+<div style={{width:'100%', marginLeft:'auto', marginRight:'auto', backgroundColor:'#ffffff', padding:'30px 30px 60px 30px', }}>
 <div style={{border:'dashed 1px #ccc', borderRadius:'2px'}}>
 <div style={{padding:'0px 0px 30px 0px'}}>
 <h1 className="title serif">Residenz Vier Jahreszeiten</h1>
