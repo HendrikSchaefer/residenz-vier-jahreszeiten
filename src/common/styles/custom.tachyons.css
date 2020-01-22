@@ -47,7 +47,90 @@ hr {
   border-top:dashed 1px #4d4d4d !important;
 }
 
+h1.shadow, .subh2New.shadow {
+    text-shadow: 0px 0px 20px #000000
+}
+
+.subh2New {
+  color: #fff;
+  font-size: 34px;
+}
+
+.subh2NewBlack {
+  color: #000000;
+  font-size: 60px;
+  line-height: 1.3;
+}
+.customParagraph {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Open Sans;
+    color: #000000;
+    margin:30px 30px 30px 30px;
+    }
+
+.sectionService {
+  padding-top:50px;
+}
+
+.subh2New2 {
+  text-align: left;
+  color:#000000 !important;
+  font-size:28px !important;
+}
+
 @media screen and (min-width: 600px) {
+
+  .serviceSection {
+      display: flex;
+      padding-bottom: 50px;
+  }
+  .serviceLeft {
+    width: 50%;
+}
+.serviceRight {
+    max-width: 50%;
+    padding:0px 50px;
+}
+  .phoneNumber {
+    font-size: 42px;
+  }
+
+  .callToAction {
+    height:300px;
+  }
+   .heroHeadline{
+     padding-left:15%;
+   }
+   .jgTop {height: 90vh !important;}
+   .sectionInfo {
+    background-color: #ffffff;
+    margin-top: -20px;
+}
+.aboutText {
+    display: flex;
+    text-align: left;
+    padding-bottom:40px;
+}
+
+.right {
+    margin-top: 90px;
+}
+
+.ctaText {
+    font-size: 40px;
+    color: #ffffff;
+}
+.ctaLeft {
+    width: 60%;
+    padding-top: 5%;
+}
+.ctaRight {
+    width: 35%;
+    padding-top: 11%;
+    text-align:right !important;
+}
+
   .pv3 {
       padding-top: 10px !important;
       padding-bottom: 0px !important;
@@ -56,6 +139,9 @@ hr {
   display:none;
 }
 
+.react-icons {
+  vertical-align: middle;
+}
 
   h1.title {
       text-align: center;
@@ -144,6 +230,8 @@ img.img-agr2 {
     text-align: center !important;
     color:#323D4B;
 }
+
+
 
 p.apartmentsAnlage {
     column-count: 2;
@@ -253,7 +341,7 @@ p.apartmentsAnlage {
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 200px;
 }
 
 .light-green {
@@ -592,12 +680,69 @@ display: none;
 /*MOBILE*/
 
 @media screen and (max-width: 414px) {
+
+  .serviceSection {
+    text-align: center;
+    padding-bottom: 50px;
+}
+  .ctaText {
+      font-size: 26px;
+      color: #ffffff;
+      text-align: center;
+  }
+  .phoneNumber {
+    font-size: 30px;
+  }
+  svg.iconPhone {
+    font-size: 24px;
+}
+  .callToActionInner {
+    display: inherit !important;
+    padding-top:50px;
+    padding-bottom:50px;
+    min-height:400px;
+    text-align: center;
+  }
+
+  .right {
+      margin-top: 0px;
+  }
+
+  .sectionInfo {
+      background-color: rgb(255, 255, 255);
+      margin-top:-20px;
+      padding-top:40px;
+  }
+  .aboutText {
+    max-width: 95% !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 16px !important;
+    padding-bottom: 30px;
+  }
   .logo {
-      max-width: 150px;
+      max-width: 120px;
   }
-  .sliderDesktop {
-    display:none;
-  }
+  h1{
+    text-shadow: 0px 0px 20px #000000;
+    font-size: 48px !important;
+}
+
+.heroHeadline {
+  padding:4%;
+  text-align: center;
+}
+
+.subh2New {
+font-size: 28px;
+}
+
+
+
+.subh2NewBlack{font-size: 28px !important;line-height: 1.3}
+.jgTop {height: 60vh !important;}
+.sliderDesktop {display:none;}
   .HeroSection {
     background-size: cover;
     background-repeat: no-repeat;

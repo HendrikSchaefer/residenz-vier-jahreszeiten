@@ -8,13 +8,14 @@ class HeroContent extends React.Component {
     return(
       <React.Fragment>
 <>
+{/*
 <div className="HeroSection">
 <div className="heroContent" >
 
 <div style={{width:'85%', marginLeft:'auto', marginRight:'auto', backgroundColor:'#ffffff', padding:'30px 30px 140px 30px', borderRadius:'2px 2px 70px 70px '}}>
 <div style={{border:'dashed 1px #ccc', borderRadius:'2px'}}>
 <div style={{padding:'0px 30px 30px 30px'}}>
-<h1 className="title serif">Residenz Vier Jahreszeiten</h1>
+<h1 className="title display">Residenz Vier Jahreszeiten</h1>
 <h2 className="" style={{fontSize:'20px', fontFamily: 'SilkType, serif !important', letterSpacing:'2px'}}>  <b>Gepflegtes Wohnen in Schönebeck. Pflege & Betreuung, fast wie im Hotel.</b></h2>
 <div  className="konzept">
   <div className="lh-copy lh-copy  serif mw8 center">
@@ -35,7 +36,7 @@ class HeroContent extends React.Component {
   <Link to="/#anfrage" style={{letterSpacing:'2px'}} className="mid-gray f6 no-underline light-green accent  dib-l"><FaServicestack /> Unsere Leistungen & Vorteile</Link>
   </div>
 </div>
-</div>
+</div>*/}
 </>
   </React.Fragment>
     )
