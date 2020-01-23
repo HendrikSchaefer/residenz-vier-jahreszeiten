@@ -5,7 +5,6 @@ import {
   FaEnvelope
 } from 'react-icons/fa';
 import 'tachyons';
-import Ankundigung from './Ankundigung';
 import { CookieBanner } from '@palmabit/react-cookie-law';
 
 function currentYear() {

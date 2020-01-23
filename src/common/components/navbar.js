@@ -3,7 +3,7 @@ import { StaticQuery, graphql, Link } from 'gatsby';
 import { FiMenu } from 'react-icons/fi';
 import '../styles/custom.tachyons.css';
 import logo from './../../img/logo.png';
-import Ankundigung from './Ankundigung';
+
 
 
 const MultiLink = (props) => {
