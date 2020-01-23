@@ -11,7 +11,7 @@ import LeistungenAllgemein from '../homepage/components/LeistungenAllgemein';
 import HeroContentNew from '../homepage/components/HeroContentNew';
 import AboutRVJ from '../homepage/components/AboutRVJ';
 import CalltoActionStripe from '../homepage/components/CalltoActionStripe';
-import Service from '../homepage/components/Service';
+import ServiceNew from '../homepage/components/ServiceNew';
 
 export default ({ data }) => {
 
@@ -26,7 +26,7 @@ export default ({ data }) => {
 <HeroContentNew />
 <AboutRVJ />
 <CalltoActionStripe />
-<Service />
+<ServiceNew />
 <div class="anfrage">
 <Anfrage />
 </div>
