@@ -105,7 +105,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Karla', 'Playfair Display', 'Lora', 'SilkType', 'Open Sans SemiBold']
+          families: ['Karla', 'Playfair Display', 'Lora', 'SilkType']
         }
       }
     },
