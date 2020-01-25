@@ -23,7 +23,7 @@ class Anfrage extends React.Component {
     <div class="dtc-ns pv2" style={{paddingRight:'3%'}}>
     <p>
       <label class="white" for="email">Ihre E-Mail-Adresse</label><br/>
-      <input type="email" name="email"/>
+      <input type="email" name="email" required/>
     </p>
     </div>
     <div class="dtc-ns pv2">
