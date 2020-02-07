@@ -28,7 +28,7 @@ Region und das Gesamtvorhaben.
 Innerhalb von 3 Tagen lagen für 80% der Appartements
 Interessenbekundungen vor und Nutzungsvereinbarungen
 konnten geschlossen werden. Lediglich zwei sehr schöne
-Pärchenapartements sind noch frei. „Das Nutzungskonzept
+Apartements sind noch frei. „Das Nutzungskonzept
 kostet ja weniger als ein Leben im Pflegeheim und bietet dabei
 ein absolutes Mehr an Wohn-Gemeinschaftsqualität“ meinten
 viele der Interessenten.
